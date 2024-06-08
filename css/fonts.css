@@ -1,0 +1,14 @@
+
+@font-face {
+	font-family: 'Cigra'; //for the headers
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Cigra.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+}

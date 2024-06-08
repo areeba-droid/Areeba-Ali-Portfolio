@@ -1,0 +1,307 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+html {
+  /* font-size: 25px; */
+}
+
+header {
+  text-align: center;
+}
+
+body {
+  text-align: left;
+  /* font-weight: bold; */
+  letter-spacing: .05rem;
+  font-family:'Montserrat';
+  /* background-color: #EFD7B3; */
+  /* padding: 1.5rem; */
+  /* color: #D8754E; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Gopher";
+  /* letter-spacing: -.02rem; */
+}
+
+.element {
+  padding-bottom: 1rem;
+  border-top-width: 0.05rem;
+  border-top-style: solid;
+  border-top-color: #D7573C;
+}
+
+h2 {
+  /* font-size: 1.5rem; */
+  /* margin-top: 2.5rem; */
+  /* margin-bottom: -1rem; */
+  /* background-color: rgb(141, 161, 159); */
+}
+
+h3 {
+  /* font-size: 1.2rem; */
+  /* margin-bottom: -.2rem; */
+  /* font-style: italic; */
+  /* margin-top: .5rem; */
+}
+
+h4 {
+  /* font-size: .8rem; */
+  /* margin-bottom: 0rem; */
+}
+
+p {
+  /* font-size: 0.75rem; */
+  margin-top: 0rem;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 2rem;
+  color: white;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+  color: rgb(246, 186, 80);
+}
+
+nav {
+
+  text-align: center;
+  background-color: rgb(141, 161, 159);
+  padding: .4rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+
+/* learned how to round corners form this site: https://www.w3schools.com/howto/howto_css_round_buttons.asp */
+code {
+  border: none;
+  border-radius: 1rem;
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+  color: rgb(141, 161, 159);
+  font-size: .65rem;
+}
+
+li {
+  font-size: .75rem;
+}
+
+img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 0.5rem;
+  color: white;
+  background-color: #8DA19F;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.6s;
+  border: none;
+  border-radius: 1.5rem:
+}
+
+.nav-button:hover, .nav-button:focus {
+  box-shadow: 3px, 3px;
+  /* background-color: #6C7C7A; */
+  color: rgb(246, 186, 80);
+}
+
+.in-text-link {
+  font-size: .75rem;
+  color: rgb(141, 161, 159);
+}
+
+.in-text-link:hover, .in-text-link:active {
+  font-style: italic;
+  color: #8BBFBA;
+}
+
+.submit-button {
+  border: none;
+  text-align: center;
+  margin: 4px 2px;
+  display: inline-block;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  color: white;
+  background-color: #F6BA50;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.6s;
+  border-radius: 1rem;
+}
+
+.submit-button:hover, .submit-button:focus {
+  background-color: #DD971B;
+}
+
+.reset-button {
+  border: none;
+  text-align: center;
+  display: inline-block;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  color: white;
+  background-color: #8DA19F;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.6s;
+  border-radius: 1rem;
+}
+
+.reset-button:hover, .reset-button:focus {
+  box-shadow: 3px, 3px;
+  background-color: #8BBFBA;
+}
+
+.submit {
+  border: none;
+  text-align: center;
+  border-radius: 1rem;
+  display: inline-block;
+  padding: 0.25rem;
+  color: white;
+  background-color: #F6BA50;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.6s;
+}
+
+.submit:hover, .submit:focus {
+  /* box-shadow: 3px, 3px; */
+  background-color: #DD971B;
+}
+
+.text-input {
+  border: none;
+  border-radius: 1rem;
+  padding: .18rem;
+  margin: .1rem;
+}
+
+label {
+  font-size: .8rem;
+}
+
+form {
+  display: block;
+  padding: .5rem;
+  border: solid;
+  border-radius: 1rem;
+}
+
+.radio-input {
+  padding: .25rem;
+  font-style: oblique;
+}
+
+.image-link * {
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+
+.image-link img {
+  vertical-align: top;
+  backface-visibility: hidden;
+}
+
+.image-link:hover > img {
+  opacity: 0.7;
+}
+
+.image-link:active :focus {
+  opacity: 0.4;
+}
+
+.products {
+  display: flex;
+  margin-left: 1.5rem;
+  margin-top: 3rem;
+}
+
+.product-listing  {
+  display: flex;
+}
+.box1 {
+}
+
+.box2{
+  padding-left: 1.5rem;
+}
+
+.product-img {
+  /* padding-left: 3rem; */
+  /* padding-right: 3rem; */
+  pro
+}
+
+.product1, .product2, .product3 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+}
+
+.checkout {
+  /* color: white; */
+  display: flex;
+  margin: 2rem;
+  align-items: flex-end;
+  /* border-bottom: 3px white solid; */
+}
+
+.checkout-description {
+  margin-left: 1rem;
+  margin-bottom: .25rem;
+}
+
+.product-qty label {
+  color: #D8754E;
+}
+
+.checkout-container {
+  flex: display;
+  flex-direction: column;
+}
+
+.img-checkout img {
+  width: 10rem;;
+  height: auto;
+}
+
+.product-detail{
+  display: flex;
+  margin: 2rem;
+  align-items: center;
+}
+
+.detail{
+  margin-left: 2rem;
+}
+
+.detail p {
+  width: 70%;
+}
+.name-container {
+  display:flex;
+}
+
+.last-name {
+  margin-left: 1rem;
+}
+
+.payment-spacing {
+  padding-top: .5rem;
+}

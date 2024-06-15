@@ -4,6 +4,10 @@
 
 header {
   display: flex;
+  position: fixed;
+  top: 0rem;
+  width: 94%;
+  background-color: #141414;
 }
 
 body {
@@ -54,6 +58,7 @@ p {
   border-top-color: #37523A;
   margin-right: -2rem;
   margin-left: -2rem;
+  margin-top: 2rem;
 }
 
 .home-name {
@@ -184,7 +189,7 @@ label {
   flex-wrap: wrap;
   border-color: white;
   border: 2px;
-  margin-top: 5rem;
+  margin-top: 8rem;
   margin-left: 8rem;
   margin-right: 8rem;
   justify-content: center;
@@ -339,6 +344,11 @@ label {
   background-color: #37523A;
   margin-bottom: 6rem;
   margin-top: 3rem;
+  align-content: center;
+}
+
+.proj-image-main {
+  max-width: 63vw;
 }
 
 .overview-container {
@@ -365,8 +375,64 @@ label {
 
 .project-img-container {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-content: center;
 }
 
-.proj-img1 {
-  margin-right: 1rem;
+.proj-img {
+  max-width: 63vw;
+}
+
+.proj-img-1 {
+  /* min-width: 20vw; */
+  width: 32vw;
+}
+
+.proj-img2 {
+  align-items: right;
+  align-content: right;
+}
+
+footer{
+ display: flex;
+ margin-top: 8rem;
+}
+
+.footer-container-links{
+  font-weight: 100;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  align-items: baseline;
+  text-align: left;
+  flex-wrap: wrap;
+  flex: 1;
+  margin-top: auto;
+}
+
+.footer-container-text {
+  font-weight: 100;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  align-items: baseline;
+  text-align: center;
+  flex-wrap: wrap;
+  flex: 2;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.footer-container-copy {
+  font-weight: 100;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  align-items: right;
+  text-align: right;
+  flex-wrap: wrap;
+  flex: 1;
+  margin-top: auto;
+}
+
+#linkedin, #email {
+  margin-right: 0.5rem;
 }
